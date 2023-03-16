@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../web/fonts/Gilroy-Light.otf);
+}
+
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Gilroy;
+    color: white;
+    user-select: none;
+
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20vw;
+    width: 50vw;
+    background: linear-gradient(150deg, #01252d 0%, #000e11 100%);
+    border-radius: 1%;
+    border-color: transparent;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 5vw; 
+    width: 50vw;
+}
+
+
+.description {
+    font-weight: bold;
+    font-family: Gilroy;
+    font-size: 0.9vw;
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-family: Gilroy;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.logo {
+    background-image: url("https://i.imgur.com/HuA4dC6.png");
+    height: 4.68vw;
+    width: 4.68vw;
+    background-size: cover;
+
+}
+
+
+
+.job-image {
+    background-image: url("https://i.imgur.com/0aUY5uf.jpg");
+    height: 10vw;
+    width: 20vw;
+    background-size: cover;
+    border-radius: 0.5vw;
+    box-shadow: 0.10vw 0.19vw 0.19vw hsl(0deg 0% 0% / 0.46);
+
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 12vw;
+    width: 50vw;
+    background-color: transparent;
+
+}
+
+
+.right-container,
+.left-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top-color: #04262d;
+    border-top-width: 0.2vw;
+    border-top-style: solid;
+    height: 12vw;
+    width: 25vw;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-color: #04262d;
+    border-top-width: 0.2vw;
+    border-top-style: solid;
+    width: 50vw;
+    height: 3vw;
+}
+
+.about-job {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 8vw;
+    width: 24vw;
+    font-size: 0.8vw;
+    overflow: hidden;
+}
+
+.button-start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5vw;
+    width: 10vw;
+    font-size: 0.9vw;
+    border-radius: 0.2vw;
+    background-color: #01252d;
+}
+
+
+.button-start:hover {
+    background-color: rgb(3, 38, 45);
+    width: 10.5vw;
+    font-size: 1vw;
+
+}
+
+
+.credits {
+    width: 30vw;
+    height: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5vw;
+}
